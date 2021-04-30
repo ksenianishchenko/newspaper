@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error message should render correctly error message 1`] = `
+<p
+  className="text-danger"
+>
+  This is error message
+</p>
+`;

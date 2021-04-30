@@ -1,0 +1,20 @@
+current directory: D:/Projects/qwasar/newspaper/my_newspaper/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
+C:/Ruby26-x64/bin/ruby.exe -I C:/Ruby26-x64/lib/ruby/2.6.0 -r ./siteconf20201209-5608-156q7w9.rb extconf.rb
+creating Makefile
+
+current directory: D:/Projects/qwasar/newspaper/my_newspaper/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR=" clean
+bash.exe: warning: could not find /tmp, please create!
+
+current directory: D:/Projects/qwasar/newspaper/my_newspaper/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR="
+generating bootsnap-x64-mingw32.def
+bash.exe: warning: could not find /tmp, please create!
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+C:/Ruby26-x64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: bootsnap.o:bootsnap.c:(.text+0x5f5): undefined reference to `__strcat_chk'
+C:/Ruby26-x64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: bootsnap.o:bootsnap.c:(.text+0xb49): undefined reference to `__chk_fail'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Makefile:261: bootsnap.so] Error 1
+
+make failed, exit code 2

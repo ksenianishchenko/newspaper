@@ -1,0 +1,119 @@
+.profile-card-4 {
+  max-width: 300px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+
+  .btn-group-vertical {
+      width: 100%;
+      .btn {
+          width: 100%;
+          margin-bottom: 5px;
+      }
+  }
+}
+
+.profile-card-4 .profile-content {
+  position: relative;
+  padding: 15px;
+  background-color: #FFF;
+}
+
+.profile-card-4 .profile-name {
+  font-weight: bold;
+  font-size: 17px;
+  color: #273751;
+  border-bottom: 2px solid #273751;
+}
+
+.profile-card-4 .profile-name p {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+
+.profile-card-4 .profile-description {
+  color: #777;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.profile-card-4 .profile-overview {
+  padding: 15px 0px;
+}
+
+.profile-card-4 .profile-overview p {
+  font-size: 10px;
+  font-weight: 600;
+  color: #777;
+}
+
+.profile-card-4 .profile-overview h4 {
+  color: #273751;
+  font-weight: bold;
+}
+
+.spinner-border {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.loader-block {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  
+  div {
+    width: 1rem;
+    height: 1rem;
+    margin: 2rem 0.3rem;
+    background: #007bff;
+    border-radius: 50%;
+    animation: 0.9s bounce infinite alternate;
+
+    &:nth-child(2) {
+      animation-delay: 0.3s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: 0.6s;
+    }
+  }
+}
+
+@keyframes bounce {
+  to {
+    opacity: 0.3;
+    transform: translate3d(0, -1rem, 0);
+  }
+}
+
+.like {
+  font-size: 11px;
+  padding: 0;
+}
+
+.card-header {
+  display: flex;
+  align-items: baseline;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  small {
+    margin-left: 5px;
+  }
+}
+
+.retweet-icon {
+  margin-right: 5px;
+}

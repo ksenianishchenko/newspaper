@@ -1,0 +1,71 @@
+@import "./variables";
+
+body {
+    font-family: $main-text-font;
+}
+
+.logo {
+    font-size: 21px;
+    font-family: $main-title-font;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.form-control.input-lg {
+    width: 80%;
+}
+
+.modal.no-fixed {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0!important;
+
+    .modal-dialog {
+        max-width: 100%;
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0!important;
+    }
+}
+
+.modal.bgr-dark {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-open {
+    display: block;
+
+    .modal {
+        display: block;
+    }
+
+    .modal-dialog {
+        display: block;
+    }
+}
+
+.modal-close {
+    display: none;
+
+    .modal {
+        display: none;
+    }
+
+    .modal-dialog {
+        display: none;
+    }
+}
+
+.card {
+    margin-bottom: 20px;
+}

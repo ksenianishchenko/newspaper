@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should be render correctly 1`] = `
+<button
+  className="button"
+  onClick={[MockFunction]}
+  type="submit"
+>
+  Click me
+</button>
+`;

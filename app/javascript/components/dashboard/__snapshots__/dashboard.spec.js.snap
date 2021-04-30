@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> unit test Should render component dashboard with user 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(Dashboard)
+        user={
+          Object {
+            "user": Object {
+              "created_at": "2021-01-16T20:20:20.983Z",
+              "email": "mila@gmail.com",
+              "handle": "mila_a",
+              "id": 1,
+              "updated_at": "2021-01-16T20:20:20.983Z",
+            },
+          }
+        }
+      >
+        <Dashboard
+          dispatch={[Function]}
+          user={null}
+        >
+          <div
+            className="dashboard"
+          >
+            <Connect(Header)>
+              <Header
+                currentUser={null}
+                handleLogoutRequest={[Function]}
+              >
+                <header
+                  className="main-header"
+                >
+                  <div
+                    className="container"
+                  >
+                    <div
+                      className="row"
+                    >
+                      <div
+                        className="col-6 p-3"
+                      >
+                        <h1
+                          className="logo"
+                        >
+                          NewsPaper
+                        </h1>
+                      </div>
+                      <div
+                        className="col-6 p-3"
+                      >
+                        <div
+                          className="row"
+                        >
+                          <div
+                            className="col text-right"
+                          >
+                            <Link
+                              className="btn btn btn-primary my-2 my-sm-0"
+                              to="/dashboard"
+                            >
+                              <LinkAnchor
+                                className="btn btn btn-primary my-2 my-sm-0"
+                                href="/dashboard"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="btn btn btn-primary my-2 my-sm-0"
+                                  href="/dashboard"
+                                  onClick={[Function]}
+                                >
+                                  Dashboard
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Button
+                              className="btn btn-link text-secondary"
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              <button
+                                className="btn btn-link text-secondary"
+                                onClick={[Function]}
+                                type="button"
+                              >
+                                Sign Out
+                              </button>
+                            </Button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </header>
+              </Header>
+            </Connect(Header)>
+            <div
+              className="main-content"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="row p-3"
+                >
+                  <div
+                    className="col-6"
+                  >
+                    <div
+                      className="row p-3"
+                    >
+                      <div
+                        className="col"
+                      >
+                        <Connect(SearchForm)>
+                          <SearchForm
+                            onSearchRequest={[Function]}
+                          >
+                            <div
+                              className="search-form"
+                            >
+                              <h2
+                                className="h4 mb-4"
+                              >
+                                Find user profile
+                              </h2>
+                              <form
+                                className="form-inline"
+                                style={
+                                  Object {
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <FormInput
+                                  className="form-control mr-sm-2 input-lg"
+                                  handleChange={[Function]}
+                                  id="email"
+                                  name="email"
+                                  placeholder="find user by email..."
+                                >
+                                  <input
+                                    className="form-control mr-sm-2 input-lg"
+                                    id="email"
+                                    name="email"
+                                    onChange={[Function]}
+                                    placeholder="find user by email..."
+                                  />
+                                </FormInput>
+                                <button
+                                  className="btn btn-primary my-2 my-sm-0"
+                                  onClick={[Function]}
+                                  type="submit"
+                                >
+                                  <svg
+                                    className="bi bi-search"
+                                    fill="currentColor"
+                                    height="16"
+                                    viewBox="0 0 16 16"
+                                    width="16"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"
+                                      fillRule="evenodd"
+                                    />
+                                    <path
+                                      d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"
+                                      fillRule="evenodd"
+                                    />
+                                  </svg>
+                                </button>
+                              </form>
+                            </div>
+                          </SearchForm>
+                        </Connect(SearchForm)>
+                      </div>
+                    </div>
+                    <div
+                      className="row p-3"
+                    >
+                      <div
+                        className="col"
+                      >
+                        <Connect(ProfileCard)
+                          user={null}
+                        >
+                          <ProfileCard
+                            onChangeUpdateStatus={[Function]}
+                            onDeleteProfile={[Function]}
+                            profileForAdmin={null}
+                            user={null}
+                          >
+                            <div
+                              className="row"
+                            >
+                              <div
+                                className="col"
+                              >
+                                <p
+                                  className="lead text-muted"
+                                >
+                                  <small>
+                                    <em>
+                                      No user found yet.
+                                    </em>
+                                  </small>
+                                </p>
+                              </div>
+                            </div>
+                          </ProfileCard>
+                        </Connect(ProfileCard)>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-6"
+                  >
+                    <Connect(CreateUserForm)>
+                      <CreateUserForm
+                        handleSignUpRequest={[Function]}
+                      >
+                        <form
+                          action=""
+                          className="create-user-form p-3"
+                          method=""
+                        >
+                          <h2
+                            className="h4 mb-4"
+                          >
+                            Add new user
+                          </h2>
+                          <FormInput
+                            className="form-control mb-4"
+                            handleChange={[Function]}
+                            id="email"
+                            name="email"
+                            placeholder="email"
+                          >
+                            <input
+                              className="form-control mb-4"
+                              id="email"
+                              name="email"
+                              onChange={[Function]}
+                              placeholder="email"
+                            />
+                          </FormInput>
+                          <FormInput
+                            className="form-control mb-4"
+                            handleChange={[Function]}
+                            id="handle"
+                            name="handle"
+                            placeholder="user_name"
+                          >
+                            <input
+                              className="form-control mb-4"
+                              id="handle"
+                              name="handle"
+                              onChange={[Function]}
+                              placeholder="user_name"
+                            />
+                          </FormInput>
+                          <FormInput
+                            className="form-control mb-4"
+                            handleChange={[Function]}
+                            id="password"
+                            name="password"
+                            placeholder="password"
+                          >
+                            <input
+                              className="form-control mb-4"
+                              id="password"
+                              name="password"
+                              onChange={[Function]}
+                              placeholder="password"
+                            />
+                          </FormInput>
+                          <FormInput
+                            className="form-control mb-4"
+                            handleChange={[Function]}
+                            id="password"
+                            name="password"
+                            placeholder="password"
+                          >
+                            <input
+                              className="form-control mb-4"
+                              id="password"
+                              name="password"
+                              onChange={[Function]}
+                              placeholder="password"
+                            />
+                          </FormInput>
+                          <Button
+                            className="btn btn-primary btn-block my-4 waves-effect waves-light"
+                            onClick={[Function]}
+                            type="submit"
+                          >
+                            <button
+                              className="btn btn-primary btn-block my-4 waves-effect waves-light"
+                              onClick={[Function]}
+                              type="submit"
+                            >
+                               Submit 
+                            </button>
+                          </Button>
+                        </form>
+                      </CreateUserForm>
+                    </Connect(CreateUserForm)>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Dashboard>
+      </Connect(Dashboard)>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

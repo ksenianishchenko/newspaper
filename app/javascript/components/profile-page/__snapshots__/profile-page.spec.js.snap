@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProfilePage /> component renders correct should be render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <ProfilePage
+        location={
+          Object {
+            "state": Object {
+              "profile": Object {
+                "user": Object {
+                  "created_at": "2021-01-16T20:20:20.983Z",
+                  "email": "mila@gmail.com",
+                  "handle": "mila_a",
+                  "id": 1,
+                  "updated_at": "2021-01-16T20:20:20.983Z",
+                },
+              },
+            },
+          }
+        }
+      >
+        <div
+          className="profile-page"
+        >
+          <Connect(Header)>
+            <Header
+              currentUser={null}
+              handleLogoutRequest={[Function]}
+            >
+              <header
+                className="main-header"
+              >
+                <div
+                  className="container"
+                >
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="col-6 p-3"
+                    >
+                      <h1
+                        className="logo"
+                      >
+                        NewsPaper
+                      </h1>
+                    </div>
+                    <div
+                      className="col-6 p-3"
+                    >
+                      <div
+                        className="row"
+                      >
+                        <div
+                          className="col text-right"
+                        >
+                          <Link
+                            className="btn btn btn-primary my-2 my-sm-0"
+                            to="/dashboard"
+                          >
+                            <LinkAnchor
+                              className="btn btn btn-primary my-2 my-sm-0"
+                              href="/dashboard"
+                              navigate={[Function]}
+                            >
+                              <a
+                                className="btn btn btn-primary my-2 my-sm-0"
+                                href="/dashboard"
+                                onClick={[Function]}
+                              >
+                                Dashboard
+                              </a>
+                            </LinkAnchor>
+                          </Link>
+                          <Button
+                            className="btn btn-link text-secondary"
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <button
+                              className="btn btn-link text-secondary"
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              Sign Out
+                            </button>
+                          </Button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </header>
+            </Header>
+          </Connect(Header)>
+          <ProfileContent
+            profile={
+              Object {
+                "user": Object {
+                  "created_at": "2021-01-16T20:20:20.983Z",
+                  "email": "mila@gmail.com",
+                  "handle": "mila_a",
+                  "id": 1,
+                  "updated_at": "2021-01-16T20:20:20.983Z",
+                },
+              }
+            }
+          >
+            <div
+              className="main-content"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-4 p-3"
+                  >
+                    <Connect(ProfileCard)
+                      user={
+                        Object {
+                          "user": Object {
+                            "created_at": "2021-01-16T20:20:20.983Z",
+                            "email": "mila@gmail.com",
+                            "handle": "mila_a",
+                            "id": 1,
+                            "updated_at": "2021-01-16T20:20:20.983Z",
+                          },
+                        }
+                      }
+                    >
+                      <ProfileCard
+                        onChangeUpdateStatus={[Function]}
+                        onDeleteProfile={[Function]}
+                        profileForAdmin={null}
+                        user={
+                          Object {
+                            "user": Object {
+                              "created_at": "2021-01-16T20:20:20.983Z",
+                              "email": "mila@gmail.com",
+                              "handle": "mila_a",
+                              "id": 1,
+                              "updated_at": "2021-01-16T20:20:20.983Z",
+                            },
+                          }
+                        }
+                      >
+                        <div
+                          className="profile-card-4 text-center"
+                        >
+                          <div
+                            className="profile-content"
+                          >
+                            <div
+                              className="profile-name"
+                            >
+                              <p />
+                            </div>
+                            <div
+                              className="profile-description"
+                            >
+                              Created at: 
+                              <strong />
+                            </div>
+                            <div
+                              className="row"
+                            >
+                              <div
+                                className="col"
+                              >
+                                <div
+                                  className="profile-overview"
+                                >
+                                  <p>
+                                    TWEETS
+                                  </p>
+                                  <h4>
+                                    1300
+                                  </h4>
+                                </div>
+                              </div>
+                              <div
+                                className="col"
+                              >
+                                <div
+                                  className="profile-overview"
+                                >
+                                  <p>
+                                    FOLLOWERS
+                                  </p>
+                                  <h4>
+                                    250
+                                  </h4>
+                                </div>
+                              </div>
+                              <div
+                                className="col"
+                              >
+                                <div
+                                  className="profile-overview"
+                                >
+                                  <p>
+                                    FOLLOWING
+                                  </p>
+                                  <h4>
+                                    168
+                                  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </ProfileCard>
+                    </Connect(ProfileCard)>
+                  </div>
+                  <div
+                    className="col"
+                  >
+                    <div
+                      className="row p-3"
+                    >
+                      <div
+                        className="col"
+                      >
+                        <Button
+                          className="btn btn-primary"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <button
+                            className="btn btn-primary"
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            Follow
+                          </button>
+                        </Button>
+                      </div>
+                    </div>
+                    <div
+                      className="row p-3"
+                    >
+                      <div
+                        className="col"
+                      >
+                        <Connect(UpdateFeed)>
+                          <UpdateFeed
+                            currentUser={null}
+                            fetchUserFeed={[Function]}
+                            userFeed={Object {}}
+                          >
+                            <div>
+                              <h3
+                                className="profile-name"
+                              >
+                                Feed
+                              </h3>
+                            </div>
+                          </UpdateFeed>
+                        </Connect(UpdateFeed)>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ProfileContent>
+        </div>
+      </ProfilePage>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

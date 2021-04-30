@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput should be render correctly 1`] = `
+<input
+  className="form-input"
+  id="3"
+  name="email"
+  onChange={[MockFunction]}
+  placeholder="Your email"
+/>
+`;

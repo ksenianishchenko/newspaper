@@ -1,0 +1,32 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_bootstrap
+ *= require_tree .
+ *= require_self
+ */
+
+ @import "bootstrap/scss/bootstrap.scss";
+ @import "../../javascript/global_styles.scss";
+ @import "../../javascript/_variables.scss";
+ @import "../../javascript/components/app/app.scss";
+ @import "../../javascript/components/comments-list/comments-list.scss";
+ @import "../../javascript/components/current-user-profile/current-user-profile.scss";
+ @import "../../javascript/components/dashboard/dashboard.scss";
+ @import "../../javascript/components/edit-profile-page/edit-profile-page.scss";
+ @import "../../javascript/components/error/error.scss";
+ @import "../../javascript/components/header/header.scss";
+ @import "../../javascript/components/home/home.scss";
+ @import "../../javascript/components/profile-card/profile-card.scss";
+ @import "../../javascript/components/sign-in-page/sign-in-page.scss";
+ @import "../../javascript/components/sign-up-page/sign-up-page.scss";
+ @import "../../javascript/components/welcome/welcome.scss";
