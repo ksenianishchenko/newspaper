@@ -29,6 +29,7 @@ Sign-In and Sign-Up forms with token-based authentication that allows users to v
 * Leave comments and likes posts.
 * Edit profile information.
 * Follow other users.
+* See profile page of other user.
 
 ## Technologies
 
