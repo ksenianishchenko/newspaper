@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-# my_newspaper
+<h1>NewsPaper </h1>
 
-=======
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
->>>>>>> ef246cf... first commit rails react bootstrap styles not loading
+<p> NewsPaper is a 'microblogging' system that allows you to send and receive short posts. Posts can be up to 140 characters long and can include links to relevant websites and resources. </p>
