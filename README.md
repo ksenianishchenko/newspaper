@@ -16,15 +16,3 @@ SignIn and SignUp forms with token-based authentication that allows users to ver
 
 ![Main Page](/images/main.png)
 
-### Create new Post
-
-![Form for creating new post](/images/new-post.png)
-
-### Comments Form
-
-![Comments](/images/comments.png)
-
-### Edit current profile
-
-![Comments](/images/edit-profile.png)
-
