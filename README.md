@@ -47,6 +47,7 @@ Sign-In and Sign-Up forms with token-based authentication that allows users to v
 * Implemented >70% components with React/Redux/Bootstrap technology stack.
 * Managed time-sensitive updates, including content changes and
 database upgrades.
+* Created unit tests for React components. 
 
 
 
