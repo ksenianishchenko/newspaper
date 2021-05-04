@@ -1,21 +1,30 @@
 # NewsPaper
-NewsPaper is a 'microblogging' system that allows you to send and receive short posts. Posts can be up to 140 characters long and can include links to relevant websites and resources. I was working on this fullstack (React, Rails) project in a team of two developers.
+NewsPaper is a 'microblogging' system that allows authenticated users to send and receive short posts, following other users, leave comments, likes, and retweet posts. Posts can be up to 140 characters long and can include links to relevant websites and resources. I worked on this full-stack (React, Rails) project in a team of two developers.
+
 ## Demo
 Here is a working live demo : <a href="https://peaceful-sands-24474.herokuapp.com/">https://peaceful-sands-24474.herokuapp.com/</a>
+
 ## Site
 
 ### Login Page
 
 SignIn and SignUp forms with token-based authentication that allows users to verify their identity, and in return receive a unique access token.
 
-![Sign Up](/images/sign-up.png)
-![Sign In](/images/sign-in.png)
+![Sign Up and Login](/images/login.png)
 
 ### Main Page
 
+![Main Page](/images/main.png)
+
 ### Create new Post
 
-### Following and Followers lists
+![Form for creating new post](/images/new-post.png)
+
+### Comments Form
+
+![Comments](/images/comments.png)
 
 ### Edit current profile
+
+![Comments](/images/edit-profile.png)
 
