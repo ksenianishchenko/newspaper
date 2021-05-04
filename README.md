@@ -8,6 +8,9 @@ Here is a working live demo : <a href="https://peaceful-sands-24474.herokuapp.co
 
 SignIn and SignUp forms with token-based authentication that allows users to verify their identity, and in return receive a unique access token.
 
+![Sign Up](/images/sign-up.png)
+![Sign In](/images/sign-in.png)
+
 ### Main Page
 
 ### Create new Post
