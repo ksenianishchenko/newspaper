@@ -45,6 +45,7 @@ Sign-In and Sign-Up forms with token-based authentication that allows users to v
 * Implemented user token-based authentication (backend and frontend).
 * Builded API with Ruby on Rails framework.
 * Implemented >70% components with React/Redux/Bootstrap technology stack.
+* Implemented logic for comments, searching users by username, edit profile information (backend and frontend).
 * Managed time-sensitive updates, including content changes and
 database upgrades.
 * Created unit tests for React components. 
