@@ -12,16 +12,6 @@ Here is a working live demo : <a href="https://peaceful-sands-24474.herokuapp.co
 
 ## General info
 
-### Login Page
-
-Sign-In and Sign-Up forms with token-based authentication that allows users to verify their identity, and in return receive a unique access token.
-
-![Sign Up and Login](/images/login.png)
-
-### Main Page
-
-![Main Page](/images/main.png)
-
 ## Features
 * Token-based authentication allows users to verify their identity, and in return, receive a unique access token.
 * Create, send and receive short posts (up 140 characters long).
@@ -39,6 +29,16 @@ Sign-In and Sign-Up forms with token-based authentication that allows users to v
 * JSON Web Token (JWT) authentiction.
 * Jest / Enzyme.
 * Bootstrap
+
+### Login Page
+
+Sign-In and Sign-Up forms with token-based authentication that allows users to verify their identity, and in return receive a unique access token.
+
+![Sign Up and Login](/images/login.png)
+
+### Main Page
+
+![Main Page](/images/main.png)
 
 ## Contribution
 
